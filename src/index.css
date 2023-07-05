@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components{
+    .button-primary{
+        @apply bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded  ml-auto  hover:outline-blue-700
+    }
+}
+@layer components{
+    .input-form{
+        @apply  h-11 border-[1px] border-gray-300  rounded focus:outline-blue-400 pl-3  w-full focus:transition  
+    }
+}
+
